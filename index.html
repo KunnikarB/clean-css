@@ -9,21 +9,88 @@
 </head>
 
 <body>
-    <article>
-        <img src="https://picsum.photos/300/200" width="300" height="200" />
-        <header>
-            <h2>Card Title</h2>
-            <p>Posted <time datetime="2022-01-01">2022-01-01</time> by <strong>Juan Dela
-                    Cruz</strong></p>
-        </header>
 
-        <p>This is a <i>description</i> inside the card.</p>
+    <main>
+        <section class="card-grid" aria-label="Product listing">
 
-        <footer>
-            <button type="button">Secondary</button>
-            <button type="button">Default</button>
-        </footer>
-    </article>
+            <ul class="card-list">
+
+                <li>
+                    <article class="card" aria-labelledby="card-1-title">
+
+                        <figure class="card-media">
+                            <img 
+                                src="./images/macarons.avif" 
+                                alt="Macarons"
+                            />
+
+                            <figcaption>
+                                Macarons
+                            </figcaption>
+                        </figure>
+
+                        <header>
+                            <h2 id="card-1-title">Coffe break with Macaroons</h2>
+
+                            <p>
+                                Posted on 
+                                <time datetime="2022-01-01">January 1, 2026</time> 
+                                by <strong>Kae's Café</strong>
+                            </p>
+                        </header>
+
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias eius animi eos tempora est, iure quibusdam sunt aspernatur ab possimus.
+                        </p>
+
+                        <footer aria-label="Card actions">
+                            <button type="button">Menu</button>
+                            <button type="button">By Now</button>
+                        </footer>
+
+                    </article>
+                </li>
+
+                <li>
+                    <article class="card" aria-labelledby="card-1-title">
+
+                        <figure class="card-media">
+                            <img 
+                                src="./images/strawberry-cake.avif" 
+                                alt="Strawberry Cake"
+                            />
+
+                            <figcaption>
+                                Strawberry Cake
+                            </figcaption>
+                        </figure>
+
+                        <header>
+                            <h2 id="card-1-title">Coffe break with Strawberry Cake</h2>
+
+                            <p>
+                                Posted on 
+                                <time datetime="2022-01-01">January 10, 2026</time> 
+                                by <strong>Kae's Café</strong>
+                            </p>
+                        </header>
+
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias eius animi eos tempora est, iure quibusdam sunt aspernatur ab possimus.
+                        </p>
+
+                        <footer aria-label="Card actions">
+                            <button type="button">Menu</button>
+                            <button type="button">By Now</button>
+                        </footer>
+
+                    </article>
+                </li>
+            </ul>
+
+        </section>
+    </main>
+
 </body>
 
 </html>
